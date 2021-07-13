@@ -61,7 +61,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     bcrypt (3.1.13)
     bootsnap (1.4.5)
@@ -154,7 +154,7 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    public_suffix (4.0.3)
+    public_suffix (4.0.6)
     puma (4.3.1)
       nio4r (~> 2.0)
     pundit (2.1.0)
@@ -197,6 +197,10 @@ GEM
       actionpack (>= 5.0)
       railties (>= 5.0)
     ruby_dep (1.5.0)
+    simple_token_authentication (1.17.0)
+      actionmailer (>= 3.2.6, < 7)
+      actionpack (>= 3.2.6, < 7)
+      devise (>= 3.2, < 6)
     sixarm_ruby_unaccent (1.2.0)
     sprockets (4.0.0)
       concurrent-ruby (~> 1.0)
@@ -247,6 +251,7 @@ DEPENDENCIES
   pundit
   rails (~> 6.0.2, >= 6.0.2.1)
   rb-readline
+  simple_token_authentication
   tzinfo-data
 
 RUBY VERSION
