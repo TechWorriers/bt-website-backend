@@ -107,8 +107,8 @@ GEM
     foreman (0.87.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    httparty (0.17.3)
-      mime-types (~> 3.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
@@ -131,9 +131,6 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (0.9.2)
-    mime-types (3.3.1)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.1009)
     mimemagic (0.3.4)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
@@ -197,6 +194,10 @@ GEM
       actionpack (>= 5.0)
       railties (>= 5.0)
     ruby_dep (1.5.0)
+    simple_token_authentication (1.18.1)
+      actionmailer (>= 3.2.6, < 8)
+      actionpack (>= 3.2.6, < 8)
+      devise (>= 3.2, < 6)
     sixarm_ruby_unaccent (1.2.0)
     sprockets (4.0.0)
       concurrent-ruby (~> 1.0)
@@ -247,6 +248,7 @@ DEPENDENCIES
   pundit
   rails (~> 6.0.2, >= 6.0.2.1)
   rb-readline
+  simple_token_authentication
   tzinfo-data
 
 RUBY VERSION
